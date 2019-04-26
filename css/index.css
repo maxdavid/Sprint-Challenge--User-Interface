@@ -43,7 +43,10 @@ button {
 
 .btn-outline {
   border: 2px solid black;
-  background-color: white;
+}
+
+.btn-outline:hover {
+  background-color: #0000001f;
 }
 
 .full-width {
@@ -141,6 +144,10 @@ header nav {
   justify-content: center;
 }
 
+.box:hover {
+  opacity: 0.9;
+}
+
 .box:nth-child(1) { background-color: teal; }
 .box:nth-child(2) { background-color: gold; }
 .box:nth-child(3) { background-color: cadetblue; }
@@ -166,6 +173,48 @@ header nav {
 
 .bottom-content .text-container:last-child {
   padding-right: 0;
+}
+
+/* Contact form  ----------------------------- */
+
+.contact-form {
+  width: 400px;
+  margin: 40px auto;
+  padding: 0 30px 20px 30px;
+  border-bottom: 1px dashed black;
+}
+
+.input-line {
+  margin: 20px 0;
+}
+
+.input-label {
+  font-size: 11px;
+  color: #777;
+  margin-bottom: 2px;
+}
+
+.input-line input {
+  width: 100%;
+  height: 30px;
+  border: 0.5px solid #777;
+}
+
+.input-line textarea {
+  width: 100%;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+input[type=submit]:hover {
+  background-color: #0000001f;
 }
 
 /* Footer ------------------------------------ */
