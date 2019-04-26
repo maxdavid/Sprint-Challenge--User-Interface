@@ -243,6 +243,32 @@ footer nav a {
 @media all and (max-width: 800px) {
   .container {
     width: 100%;
+    padding: 0 5px;
+  }
+  .nav-container {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .text-container {
+    overflow: hidden;
   }
 }
 
+@media all and (max-width: 500px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+  }
+  .nav-container a {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  header nav {
+    height: auto;
+  }
+  .contact-form {
+    width: 100%;
+  }
+}
